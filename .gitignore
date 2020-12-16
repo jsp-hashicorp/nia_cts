@@ -7,4 +7,5 @@
 
 *.pem
 
+terraform
 *.rpm
