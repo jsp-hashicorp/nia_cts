@@ -1,4 +1,4 @@
-# Consul Terraform Sync을 이용한 Network Infrastructure Automation 구현
+# Consul Terraform Sync을 이용한 네트워크 인프라 자동화 구현
 
 ## ![Demo 환경 구성](./demo_arch.png)
 
