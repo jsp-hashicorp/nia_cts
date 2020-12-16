@@ -156,7 +156,7 @@ AWS Cloud Access Key는 환경 변수 또는 Terraform Variable로 선언 후 �
    2020/12/16 06:09:30.696901 [INFO] (cli) running controller
    ```
 
-6. AWS Console 또는 iac 디렉토리 상의 nginx.tf 상의 desired capacity를 변경. Consul Terraform Sync가 감지하여 BIG IP 상에 노드 멤버가 추가 되는 지 확인.
+6. AWS Console 또는 iac 디렉토리 상의 nginx.tf 상의 desired capacity를 변경. Consul Terraform Sync가 감지하여 BIG IP 상에 노드 멤버가 변경되는 지 확인.
 
 
 
