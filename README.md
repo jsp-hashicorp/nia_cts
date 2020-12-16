@@ -84,7 +84,7 @@ AWS Cloud Access Key는 환경 변수 또는 Terraform Variable로 선언 후 �
    F5_Password = PASSWORD
    F5_UI = https://F5_IP_ADDR:8443
    F5_Username = admin
-   $ cd ./cts
+   $ cd ../cts
    ```
 
 4. cts 디렉토리에서 config.hcl을 해당 정보를 이용하여 수정
