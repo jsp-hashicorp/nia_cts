@@ -16,7 +16,7 @@ BIG-IP, NGINX 서버 그리고 Consul Server 구성을 위한 Terraform Configur
 
 #### Consul Terraform Sync용 코드
 
-Consul Terraform Sync를 동작시키기 위한 config.hcl과 task.tfvars 파일만 수정 또는 작성하면 됨.  Consul Terraform Sync 실행 시 sync-tasks디렉토리는 자동 생성되면서, 필요한 파일을 다운로드. (녹새으로 표시된 파일들)
+Consul Terraform Sync를 동작시키기 위한 config.hcl과 task.tfvars 파일만 수정 또는 작성하면 됨.  Consul Terraform Sync 실행 시 sync-tasks디렉토리는 자동 생성되면서, 필요한 파일을 다운로드. (녹색으로 표시된 파일들)
 
 
 
