@@ -48,7 +48,7 @@ AWS Cloud Access Key는 환경 변수 또는 Terraform Variable로 선언 후 �
 
 2. iac 디렉토리로 이동하여 terraform.tfvars 파일 수정
 
-   ```c++
+   ```hcl
    #
    ## prefix will be added to resources created
    #
@@ -89,7 +89,7 @@ AWS Cloud Access Key는 환경 변수 또는 Terraform Variable로 선언 후 �
 
 4. cts 디렉토리에서 config.hcl을 해당 정보를 이용하여 수정
 
-   ```json
+   ```hcl
    log_level = "debug"
    
    driver "terraform" {
