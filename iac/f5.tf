@@ -62,7 +62,7 @@ resource "aws_s3_bucket_object" "password" {
 }
 */
 data "template_file" "f5_init" {
-  template = file("../scripts/f5.tpl")
+  template = file("./scripts/f5.tpl")
 
   vars = {
     password = random_string.password.result
