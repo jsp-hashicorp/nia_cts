@@ -12,7 +12,7 @@ terraform {
     }
   }
   backend "consul" {
-    address = "13.125.21.128:8500"
+    address = "13.125.63.212:8500"
     gzip    = true
     path    = "tf-state"
     scheme  = "http"

@@ -42,7 +42,7 @@ task {
   version = "0.1.2"
   providers = ["bigip"]
   services = ["nginx"]
-  variable_files = ["/Users/jsp/HashiCorp/demo/network-webinar/cts/task.tfvars"]
+  variable_files = ["/Users/jsp/HashiCorp/snapshot/nia_cts/cts/task.tfvars"]
   buffer_period {
    min = "10s"
   }

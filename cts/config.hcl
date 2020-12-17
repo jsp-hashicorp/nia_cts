@@ -8,20 +8,20 @@ driver "terraform" {
     }
   }
   backend "consul" {
-    address = "13.125.21.128:8500"
+    address = "13.125.63.212:8500"
     scheme  = "http"
     path    = "tf-state"
   }
 }
 
 consul {
-  address = "13.125.21.128:8500"
+  address = "13.125.63.212:8500"
 }
 
-#buffer_period {
-#  min = "5s"
-#  max = "20s"
-#}
+buffer_period {
+  min = "5s"
+  max = "20s"
+}
 
 service {
   name = "nginx"
@@ -30,9 +30,9 @@ service {
 }
 
 provider "bigip" {
-  address  = "https://54.180.209.102:8443"
+  address  = "https://13.125.45.170:8443"
   username = "admin"
-  password = "Ts7CqxvNcE"
+  password = "2UhzIKR5sD"
 }
 
 task {

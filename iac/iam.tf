@@ -1,6 +1,6 @@
 resource "aws_iam_role_policy" "consul" {
   name = "${var.prefix}-f5-consul-policy"
-  role = "${aws_iam_role.consul.id}"
+  role = aws_iam_role.consul.id
 
   policy = <<EOF
 {
